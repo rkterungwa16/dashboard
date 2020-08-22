@@ -21,6 +21,15 @@ export default function Home() {
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer> */}
+      <style jsx>
+        {
+          `
+            {
+              background: #E5E5E5;
+            }
+          `
+        }
+      </style>
     </div>
   )
 }
