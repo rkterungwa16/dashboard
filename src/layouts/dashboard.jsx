@@ -8,7 +8,7 @@ export const Dashboard = () => {
         {
           `
             {
-              width: 100%;
+              width: 100vw;
             }
           `
         }
