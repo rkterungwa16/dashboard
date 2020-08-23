@@ -244,7 +244,7 @@ export const NotificationWrapper = (props) => {
         {
           `
             {
-
+              position: relative;
             }
           `
         }
@@ -288,8 +288,8 @@ export const NotificationText = () => {
             font-size: 9px;
             display: flex;
             justify-content: center;
-            right: 307px;
-            top: 10px;
+            right: 0px;
+            top: 0px;
           }
         `
         }
