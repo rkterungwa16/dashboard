@@ -5,11 +5,11 @@ import {
   Payments,
   Orders,
   GenerateInvoiceButton
-} from "../components/layout.components/Sidebar";
+} from "../components/layout/Sidebar";
 
 import {
   Icon
-} from "../components/shared.components/Icon";
+} from "../components/shared/Icon";
 
 export const Sidebar = () => (
   <SidebarContainer>

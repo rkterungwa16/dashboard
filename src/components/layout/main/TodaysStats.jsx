@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import { Icon } from '../../shared.components/Icon';
+import { Icon } from '../../shared/Icon';
 
 export const TodaysStat = () => (
   <TodaysStatContainer>

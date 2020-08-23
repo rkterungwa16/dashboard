@@ -2,7 +2,7 @@
 
 import PropTypes from 'prop-types';
 
-import { Icon } from '../shared.components/Icon';
+import { Icon } from '../shared/Icon';
 
 const payments = [
   { url: "https://res.cloudinary.com/doy0uyv63/image/upload/v1598163291/wallet-43_u0wrsm.png", text: "All Payments" },

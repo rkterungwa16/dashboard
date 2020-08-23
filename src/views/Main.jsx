@@ -2,7 +2,7 @@ import {
   MainContainer,
   TransactionStatsContainer,
   TodaysStat
-} from "../components/layout.components/main/";
+} from "../components/layout/main/";
 
 export const Main = () => (
   <MainContainer>

@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { FaBars } from 'react-icons/fa';
 
-import { Icon } from '../shared.components/Icon';
+import { Icon } from '../shared/Icon';
 
 export const NavbarContainer = (props) => {
   return (

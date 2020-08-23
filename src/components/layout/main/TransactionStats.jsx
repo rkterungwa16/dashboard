@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import { Card } from '../../shared.components/Card';
+import { Card } from '../../shared/Card';
 
 const stats = [
   {

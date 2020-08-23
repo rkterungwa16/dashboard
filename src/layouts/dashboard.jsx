@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import { NavbarContainer } from "../components/layout.components/Navbar";
+import { NavbarContainer } from "../components/layout/Navbar";
 import { Sidebar } from "../views/Sidebar";
 import { Main } from "../views/Main";
 
