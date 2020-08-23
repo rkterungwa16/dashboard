@@ -120,6 +120,7 @@ export const TransactionStatsContainer = () => {
             {
               display: flex;
               justify-content: space-between;
+              margin-bottom: 30px;
             }
 
             @media screen and (max-width: 600px) {

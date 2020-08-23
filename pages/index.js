@@ -26,6 +26,7 @@ export default function Home() {
           `
             {
               background: #E5E5E5;
+              overflow: overlay;
             }
           `
         }
