@@ -104,7 +104,7 @@ export const TransactionStatsContainer = () => {
       {
         stats.map((stat) => {
           return (
-            <Card>
+            <Card key={`${stat.description}-${stat.url}`}>
               <TransactionStatsItem>
                 <TransactionStatsDescription description={stat.description} />
                 <TransactionStatsValue value={stat.value} />

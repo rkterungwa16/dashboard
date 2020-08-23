@@ -91,6 +91,7 @@ export const GenerateInvoiceButton = () => (
             text-transform: uppercase;
             outline: none;
             cursor: pointer;
+            padding: 5px;
             margin-left: 25px;
           }
         `
@@ -109,9 +110,11 @@ export const SidebarItem = (props) => (
             display: flex;
             align-items: center;
             padding-left: 25px;
+            ${props.isOpen ? 'background: #1875f040;' : ''}
+            ${props.isOpen ? 'border-left: 4px solid #1875F0;' : ''}
           }
           :hover {
-            background-color: #1875f040;
+            background: #1875f040;
             border-left: 4px solid #1875F0;
           }
         `
@@ -121,7 +124,12 @@ export const SidebarItem = (props) => (
 )
 
 SidebarItem.propTypes = {
-  children: PropTypes.node
+  children: PropTypes.node,
+  isOpen: PropTypes.bool
+}
+
+SidebarItem.defaultProps = {
+  isOpen: false
 }
 
 export const SidebarText = (props) => (

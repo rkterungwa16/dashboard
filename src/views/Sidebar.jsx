@@ -20,7 +20,7 @@ export const Sidebar = () => (
       marginBottom="10px"
       marginLeft="25px"
     />
-    <SidebarItem>
+    <SidebarItem isOpen={true}>
       <Icon
         url="https://res.cloudinary.com/doy0uyv63/image/upload/v1598163235/Group_k58dqv.png"
         alt="Overview"

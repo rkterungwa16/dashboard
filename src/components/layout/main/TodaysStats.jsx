@@ -380,7 +380,7 @@ export const ValueText = (props) => (
 )
 
 ValueText.propTypes = {
-  value: PropTypes.string,
+  value: PropTypes.number,
   color: PropTypes.string
 }
 
