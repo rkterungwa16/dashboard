@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
 import { FaBars } from 'react-icons/fa';
 
+import { Icon } from '../shared.components/Icon';
+
 export const NavbarContainer = (props) => {
   return (
     <nav>
@@ -147,10 +149,10 @@ NavbarSearchItem.propTypes = {
 
 export const SearchIcon = () => {
   return (
-    <img
+    <Icon
       width="10px"
       height="10px"
-      src="https://res.cloudinary.com/doy0uyv63/image/upload/v1598122745/Search_mvacgp.png"
+      url="https://res.cloudinary.com/doy0uyv63/image/upload/v1598122745/Search_mvacgp.png"
       alt="Logo"
     />
   )
@@ -257,10 +259,8 @@ NotificationWrapper.propTypes = {
 
 export const NotificationIcon = () => {
   return (
-    <img
-      src="https://res.cloudinary.com/doy0uyv63/image/upload/v1598129001/bell-53_hswl85.png"
-      width="15px"
-      height="15px"
+    <Icon
+      url="https://res.cloudinary.com/doy0uyv63/image/upload/v1598129001/bell-53_hswl85.png"
       alt="Notification"
     />
   )
@@ -346,6 +346,7 @@ export const UserImage = () => (
       height="40px"
       width="40px"
       src="https://res.cloudinary.com/doy0uyv63/image/upload/v1598130902/IMG-20180413-WA0005_1_oab7jz.png"
+      alt="User"
     />
     <style jsx>
       {
@@ -365,6 +366,7 @@ export const UserImageMobile = () => (
       height="40px"
       width="40px"
       src="https://res.cloudinary.com/doy0uyv63/image/upload/v1598130902/IMG-20180413-WA0005_1_oab7jz.png"
+      alt="UserMobile"
     />
     <style jsx>
       {
