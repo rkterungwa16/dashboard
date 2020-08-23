@@ -6,7 +6,7 @@ import { Icon } from '../shared/Icon';
 export const NavbarContainer = (props) => {
   return (
     <nav>
-      <BarsIcon />
+      <BarsIcon onClick={props.openSideBar} />
       <CompanyLogoMobile />
       <UserImageMobile />
       <NavbarLeftSubContainer>
@@ -61,7 +61,8 @@ export const NavbarContainer = (props) => {
 }
 
 NavbarContainer.propTypes = {
-  children: PropTypes.node
+  children: PropTypes.node,
+  openSideBar: PropTypes.func
 }
 
 export const NavbarLeftSubContainer = (props) => {
@@ -431,8 +432,8 @@ export const FullnameText = () => (
   </span>
 )
 
-export const BarsIcon = () => (
-  <span>
+export const BarsIcon = (props) => (
+  <span onClick={props.onClick}>
     <FaBars />
     <style jsx>
       {
@@ -447,4 +448,8 @@ export const BarsIcon = () => (
       }
     </style>
   </span>
-)
+);
+
+BarsIcon.propTypes = {
+  onClick: PropTypes.func
+}

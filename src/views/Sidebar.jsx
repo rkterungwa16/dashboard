@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import {
   SidebarItem,
   SidebarText,
@@ -11,8 +12,8 @@ import {
   Icon
 } from "../components/shared/Icon";
 
-export const Sidebar = () => (
-  <SidebarContainer>
+export const Sidebar = (props) => (
+  <SidebarContainer isOpen={props.isOpen}>
     <GenerateInvoiceButton />
     <SidebarText
       content="Main"
@@ -64,3 +65,7 @@ export const Sidebar = () => (
     </SidebarItem>
   </SidebarContainer>
 );
+
+Sidebar.propTypes = {
+  isOpen: PropTypes.bool
+}

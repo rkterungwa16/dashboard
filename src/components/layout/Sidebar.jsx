@@ -43,8 +43,6 @@ export const SidebarContainer = (props) => (
            position: absolute;
            top: 0px;
            width: ${props.isOpen ? "260px" : 0};
-           padding-left: ${props.isOpen ? "25px" : 0};
-           padding-right: ${props.isOpen ? "25px" : 0};
            padding-top: ${props.isOpen ? "74px" : 0};
            transition: 0.15s ease-out;
          }
